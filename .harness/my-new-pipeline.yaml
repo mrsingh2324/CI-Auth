@@ -25,11 +25,11 @@ pipeline:
             enabled: true
           platform:
             os: Linux
-            arch: Amd64
+            arch: Arm64
           runtime:
             type: Docker
             spec:
-              harnessImageConnectorRef: Docker4
+              harnessImageConnectorRef: Dockerdelegate5
           execution:
             steps:
               - step:
