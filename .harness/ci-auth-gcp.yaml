@@ -29,7 +29,7 @@ pipeline:
           runtime:
             type: Docker
             spec:
-              harnessImageConnectorRef: Docker_delegate_6
+              harnessImageConnectorRef: Delegate7
           execution:
             steps:
               - step:
