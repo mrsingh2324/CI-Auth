@@ -44,3 +44,4 @@ pipeline:
                       - v1
         delegateSelectors:
           - docker-delegate-new2
+          - local-runner
