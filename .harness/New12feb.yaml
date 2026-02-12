@@ -45,3 +45,4 @@ pipeline:
         delegateSelectors:
           - docker-delegate-new2
           - local-runner
+          - macos-arm64
