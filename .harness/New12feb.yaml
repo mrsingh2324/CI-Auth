@@ -42,3 +42,5 @@ pipeline:
                     repo: satyam2324/docker-har
                     tags:
                       - v1
+        delegateSelectors:
+          - docker-delegate-new2
