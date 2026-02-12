@@ -19,17 +19,18 @@ pipeline:
         spec:
           cloneCodebase: true
           caching:
-            enabled: true
+            enabled: false
             override: true
+            paths: []
           buildIntelligence:
-            enabled: true
+            enabled: false
           platform:
             os: MacOS
             arch: Arm64
           runtime:
             type: Docker
             spec:
-              harnessImageConnectorRef: account.harnessImage
+              harnessImageConnectorRef: ""
           execution:
             steps:
               - step:
