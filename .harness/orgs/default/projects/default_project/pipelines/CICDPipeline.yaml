@@ -39,7 +39,7 @@ pipeline:
                   identifier: BuildAndPushDockerRegistry_1
                   spec:
                     connectorRef: DockerHub
-                    repo: satyam2324/hello-app
+                    repo: hello-app
                     tags:
                       - latest
         delegateSelectors:
